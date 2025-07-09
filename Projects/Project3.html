@@ -1,0 +1,180 @@
+<!--**Project Level 4**
+        1) create a page with all types of ordered list and one unordered list
+        2) create a table with headings, captions and a few rows. one of the heading should take at least 3 columns
+        3) create a contact me form with relevant details for your resume website
+        4) use iframe to add one movie trailer video and that movie's wikipedia content -->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Project Level 3</title>
+    </head>
+
+    <body>
+        <textarea rows = "8" cols = "80">
+            **Project Level 4**
+        1) create a page with all types of ordered list and one unordered list
+        2) create a table with headings, captions and a few rows. one of the heading should take at least 3 columns
+        3) create a contact me form with relevant details for your resume website
+        4) use iframe to add one movie trailer video and that movie's wikipedia content
+        </textarea>
+        <hr><hr>
+
+        <h2>1)</h2>
+        <h4><big>Full-Stack Development:-</big></h4>
+        <ol type = "1">
+            <li>Front-End:</li>
+            <ol type = "A">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>Framework:</li>
+                <ol type = "a">
+                    <li>REACT</li>
+                    <li>ANGULAR</li>
+                </ol>
+            </ol>
+
+            <li>Back-End:</li>
+            <ol type="I">
+                <li>JAVA:</li>
+                <ol type = "i">
+                    <li>Core Java</li>
+                    <li>Advance Java</li>
+                </ol>
+                <li>SPRING BOOT</li>
+            </ol>
+
+            <li>Tools:</li>
+            <ul>
+                <li>Apache maven for project build management</li>
+                <li>Tomcat server</li>
+                <li>Git & GitHub tracking tool</li>
+                <li>Postman</li>
+            </ul>
+
+            <li>Database:</li>
+            <ul>
+                <li>MySQL</li>
+            </ul>
+        </ol>
+        <hr><hr>
+
+        <h2>2)</h2>
+        <table border = "1">
+            <caption>Student Information</caption>
+            <tr>
+                <th colspan = "3"><small>Mandatory Info</small></th>
+            </tr>
+
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>city</th>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>19</td>
+                <td>alex@gmail.com</td>
+                <td>Pune</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>21</td>
+                <td>john@gmail.com</td>
+                <td>Ahilyanagar</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>22</td>
+                <td>ana@gmail.com</td>
+                <td></td>
+            </tr>
+        </table>
+        <hr><hr>
+
+        <h2>3)</h2>
+
+        <h3>Contact Me</h3>
+        <form action = "/submit.php">
+            <label for = "name">*Name:</label>
+            <input type = "text" id = "name" name = "Name">
+            <br>
+            
+            <label for = "email">*Email:</label>
+            <input type = "email" id = "email" name = "Email">
+            <br>
+
+            <label for="number">*Contact:</label>
+            <input type="number" id = "number" name = "number" max = "10">
+            <br>
+
+            <label for="dob">*DOB:</label>
+            <input type="date" id = "dob" name = "DOB" >
+            <br>
+
+            <label for="color">*Favorite Color:</label>
+            <input type="color" id = "color" name = "FavColor">
+            <br>
+
+            <label for="range">*CGPA:</label>
+            <input type="range" id = "range" name = "CGPA" max = "10" step = "0.0.01">
+            <br>
+
+            <label>*Gender:</label>
+            <br>            
+            <input type="radio" id = "gender" name = "Gender" value = "Male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="Gender" value = Female>
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="other" name="Gender" value="other">
+            <label for="other">Other</label>
+            <br>
+
+            <label>*Skills:</label>
+            <br>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+            <br>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+            <br>
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br>
+
+            <label for="resume">*Resume Upload:</label>
+            <input type="file" id="resume" name="Resume">
+            <br>
+
+            <label for="city">*City:</label>
+            <select id="city" name="City">
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+            </select>
+            <br>
+
+            <label for="message">*Message:</label>
+            <br>
+            <textarea id="message" rows="4" cols="30" placeholder="Write your message here.." name="message"></textarea>
+            <br>
+
+            <input type="submit" value="send message" onclick="alert('Thank you!')">
+
+            <input type="reset" value="reset">
+        </form>
+        <hr><hr>
+
+
+        <h2>4)</h2>
+        <h1>Kesari 2</h1>
+        <iframe height="200" width="300" src="https://www.youtube.com/embed/r-7g08INMSI?si=HumfCWy7XKFoNRNq"></iframe>
+
+        <iframe src="https://en.wikipedia.org/wiki/Kesari_Chapter_2" heigth="450" width="400"></iframe>
+        
+    </body>
+</html>
