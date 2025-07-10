@@ -53,6 +53,7 @@ Welcome to my HTML learning repository! This repo contains all my practice code 
 - **Project 1** – My First Web Page  
 - **Project 2** – Full Throttle with HTML Tags  
 - **Project 3** – HTML Element Showcase
+- **Project 4** – Personal Portfolio Page (HTML only)
 
 ---
 
